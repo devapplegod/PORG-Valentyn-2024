@@ -1,0 +1,133 @@
+/* dost možná nejvíce asistence z internetu jsem potřeboval právě na .css a design :D */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    /*background-color: #9C78B7;*/
+    background-color: #d875dd;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 4em 0em 0em;
+    /*background-color: #F50565;*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    margin-top: 10px;
+    max-width: 100%;
+    width: 24em;
+}
+
+h1 {
+    font-size: 2em;
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+h2 {
+    font-size: 1em;
+    margin-bottom: 2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0em;
+}
+
+.třída-input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    max-width: 50%;
+    padding: .6em;
+    border: 1px solid #c8a0e7;
+    border-radius: 0.5em;
+    background-color: #c8a0e7;
+    color: whitesmoke;
+    margin-bottom: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jméno-input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    flex: 1;
+    padding: .6em;
+    border: 1px solid #c8a0e7;
+    border-radius: 0.5em;
+    background-color: #c8a0e7;
+    color: whitesmoke;
+    margin-bottom: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    width: calc(100% - 20px);
+    height: 150px;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.2rem;
+    resize: vertical;
+    border: 1px solid #c8a0e7;
+    border-radius: 0.5em;
+    background-color: #c8a0e7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: whitesmoke;
+}
+
+.třída-input::placeholder,
+.jméno-input::placeholder,
+.message-input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+
+.třída-input:focus,
+.jméno-input:focus,
+.message-input:focus {
+    outline-color: #c8a0e7;
+}
+
+#send-button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    background-color: #c8a0e7;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    touch-action: manipulation;
+}
+
+#send-button:hover {
+    background-color: #c360c2;
+    transform: translateY(-4px);
+}
+
+.footer-text {
+    font-size: 0.5em;
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    text-decoration: overline;
+  }
