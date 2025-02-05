@@ -25,7 +25,7 @@ client.on('ready', () => {
   
 client.login('private-token-discord-bota');
 
-const sendMessage = (mes) => {client.channels.cache.get("1200437518278082612").send(mes);};
+const sendMessage = (mes) => {client.channels.cache.get("1200437518278082612 tady id kanalu kam na private disc posilat zpravy").send(mes);};
 
 client.once('ready', () => {
         
