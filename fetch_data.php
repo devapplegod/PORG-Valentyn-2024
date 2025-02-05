@@ -1,8 +1,8 @@
 <?php
-$servername = "srv1177.hstgr.io";
-$username = "u675972297_porgfunadmin";
-$password = "^0cq[VnW";
-$dbname = "u675972297_porgfun";
+$servername = "placeholder_server";
+$username = "placeholder_username";
+$password = "placeholder_pass";
+$dbname = "placeholder_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
